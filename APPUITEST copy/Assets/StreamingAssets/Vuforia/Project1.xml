@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="2" size="6.000000 6.075949"/>
+        <ImageTarget name="4" size="6.000000 18.432432"/>
+        <ImageTarget name="41.Bottom" size="1040.000000 3096.000000"/>
+        <ImageTarget name="41.Left" size="3096.000000 3124.000000"/>
+        <ImageTarget name="41.Right" size="3096.000000 3124.000000"/>
+        <ImageTarget name="41.Back" size="1040.000000 3124.000000"/>
+        <ImageTarget name="41.Front" size="1040.000000 3124.000000"/>
+        <ImageTarget name="41.Top" size="1040.000000 3096.000000"/>
+        <MultiTarget name="41">
+            <Part name="41.Left" translation="-520.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="41.Right" translation="520.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="41.Front" translation="0 0 1548.0" rotation="AD: 1 0 0 0"/>
+            <Part name="41.Back" translation="0 0 -1548.0" rotation="AD: 0 1 0 180"/>
+            <Part name="41.Top" translation="0 1562.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="41.Bottom" translation="0 -1562.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
