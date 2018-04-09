@@ -734,18 +734,23 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 80
+    m_MinSize: 0
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: daskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakj
+  m_Text: "Thank you for using our app! This app was created for a project between
+    our school and York University. Have you ever forgotten where you stored your
+    belongings in your room? If the answer to this question is yes, our app will service
+    your organizing needs! \n\nThe app will show you where all storage locations are,
+    allow you to search for specific highlighted storage locations, and will detect
+    specific objects and will show you where it belongs, etc. "
 --- !u!222 &1298616447
 CanvasRenderer:
   m_ObjectHideFlags: 0

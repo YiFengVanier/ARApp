@@ -514,7 +514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: 35}
+  m_AnchoredPosition: {x: -2, y: -36.1239}
   m_SizeDelta: {x: 1400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298616446
@@ -538,7 +538,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -549,7 +549,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: daskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakjdaskdjhasdkjaskdjkasjdkashdkjashdkahsjkdhaskdhaskdjkasdajkdhakdhkjsahdkjashdkjhakdhasjdhkjahdjahdkjahdkjahdkjahkdjhakdhakj
+  m_Text: 'Unity, Vuforia and App Navigation - Jeff
+
+
+    Unity, Vuforia and Database - Chirag
+
+
+    Tensorflow - Yi Feng'
 --- !u!222 &1298616447
 CanvasRenderer:
   m_ObjectHideFlags: 0
