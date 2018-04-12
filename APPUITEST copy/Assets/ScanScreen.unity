@@ -3573,6 +3573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b452873bf4cf439898103dec4c04c7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button1: {fileID: 1649598776}
+  button2: {fileID: 0}
 --- !u!1 &907735330
 GameObject:
   m_ObjectHideFlags: 0
@@ -5409,7 +5411,7 @@ GameObject:
   - component: {fileID: 1649598779}
   - component: {fileID: 1649598778}
   m_Layer: 5
-  m_Name: Search Scan Button
+  m_Name: Button1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5431,7 +5433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 161, y: -290}
+  m_AnchoredPosition: {x: -558.97815, y: -290}
   m_SizeDelta: {x: 400, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649598778
@@ -5473,8 +5475,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 857573466}
-        m_MethodName: ChangeToScene
+      - m_Target: {fileID: 857573468}
+        m_MethodName: CancelInvoke
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5482,7 +5484,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: MainScreen
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -6582,7 +6584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 564.2899, y: -289.65363}
+  m_AnchoredPosition: {x: 564.2899, y: -290}
   m_SizeDelta: {x: 400, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1892586419

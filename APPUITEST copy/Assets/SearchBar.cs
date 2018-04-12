@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SearchBar : MonoBehaviour {
+	public GameObject button1;
+	public GameObject button2;	
 
-	// Use this for initialization
-	void Start () {
-		
+	void start () {
+		button1.SetActive (false);
+		button2.SetActive (false);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	public void ButtonValid () {
+		button1.SetActive (false);
+		button2.SetActive (true);
 	}
 }
