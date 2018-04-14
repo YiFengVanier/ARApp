@@ -17,3 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CreditScreen.unity
     guid: 438f8748dcd9441008e50fa038cbc2c5
+  - enabled: 1
+    path: Assets/SettingScreen.unity
+    guid: 9bc6d1b6932614557b9fa7b82b548c18
+  - enabled: 1
+    path: Assets/SearchScreen.unity
+    guid: 4aa6b93127a324e1293bc8c421da0feb

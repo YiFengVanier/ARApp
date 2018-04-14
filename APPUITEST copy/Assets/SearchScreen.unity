@@ -5581,7 +5581,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What you are Scanning!
+  m_Text: What you are Searching!
 --- !u!222 &1601154211
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5600,7 +5600,7 @@ GameObject:
   - component: {fileID: 1636088618}
   - component: {fileID: 1636088617}
   m_Layer: 5
-  m_Name: Scan Title
+  m_Name: Search Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

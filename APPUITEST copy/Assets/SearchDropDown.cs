@@ -14,39 +14,47 @@ public class SearchDropDown : MonoBehaviour {
 
 	void Update () {
 
-		if (dropdown.value == 0)
-		text.text = "Searching for all";
-		Scissor.SetActive (true);
-		Cup.SetActive (true);
-		Fork.SetActive (true);
-		Dish.SetActive (true);
+		if (dropdown.value == 0) {
+			text.text = "Scanning for All";
+			Scissor.SetActive (true);
+			Cup.SetActive (true);
+			Fork.SetActive (true);
+			Dish.SetActive (true);
+		}
 
-		if (dropdown.value == 1)
-		text.text = "Searching for Dishes";
-		Scissor.SetActive (false);
-		Cup.SetActive (false);
-		Fork.SetActive (false);
-		Dish.SetActive (true);
-		
-		if (dropdown.value == 2)
-		text.text = "Searching for Forks";
-		Scissor.SetActive (false);
-		Cup.SetActive (false);
-		Fork.SetActive (true);
-		Dish.SetActive (false);
+		if (dropdown.value == 1) {
+			text.text = "Scanning for Dishes";
+			Scissor.SetActive (false);
+			Cup.SetActive (false);
+			Fork.SetActive (false);
+			Dish.SetActive (true);
+		}
 
-		if (dropdown.value == 3)
-		text.text = "Searching for Cups";
-		Scissor.SetActive (false);
-		Cup.SetActive (true);
-		Fork.SetActive (false);
-		Dish.SetActive (false);
+		if (dropdown.value == 2) {
+			text.text = "Scanning for Forks";
+			Scissor.SetActive (false);
+			Cup.SetActive (false);
+			Fork.SetActive (true);
+			Dish.SetActive (false);
+		}
 
-		if (dropdown.value == 4)
-		text.text = "Searching for Scissors";
-		Scissor.SetActive (true);
-		Cup.SetActive (false);
-		Fork.SetActive (false);
-		Dish.SetActive (false);
+		if (dropdown.value == 3) {
+			text.text = "Scanning for Cups";
+			Scissor.SetActive (false);
+			Cup.SetActive (true);
+			Fork.SetActive (false);
+			Dish.SetActive (false);
+		}
+
+		if (dropdown.value == 4) {
+			text.text = "Scanning for Scissors";
+			Scissor.SetActive (true);
+			Cup.SetActive (false);
+			Fork.SetActive (false);
+			Dish.SetActive (false);
+		}
+
 	}
+
 }
+
