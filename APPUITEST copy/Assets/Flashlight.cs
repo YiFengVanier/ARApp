@@ -1,16 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Vuforia;
 
 public class Flashlight : MonoBehaviour {
+    public Toggle toggle;
 
-	public void turnon (int toggle) {
-		if (toggle == 1) {
-			CameraDevice.Instance.SetFlashTorchMode (false);
-		}
-		if (toggle == 0) {
-			CameraDevice.Instance.SetFlashTorchMode (true);
-		}
-	}
+        void Turnon(bool toggle) {
+        
+        if (toggle == true)
+        {
+            CameraDevice.Instance.SetFlashTorchMode(true);
+        }
+        if (toggle != true)
+        {
+            CameraDevice.Instance.SetFlashTorchMode(false);
+        }
+    }
 }
