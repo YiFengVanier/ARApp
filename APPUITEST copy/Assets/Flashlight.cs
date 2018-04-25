@@ -1,21 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using Vuforia;
 
-public class Flashlight : MonoBehaviour {
-    public Toggle toggle;
+public class Flashlight : MonoBehaviour{
 
-        void Turnon(bool toggle) {
-        
-        if (toggle == true)
-        {
-            CameraDevice.Instance.SetFlashTorchMode(true);
-        }
-        if (toggle != true)
-        {
-            CameraDevice.Instance.SetFlashTorchMode(false);
-        }
-    }
+	public void onPointerDownFlashlightButton()
+	{
+		CameraDevice.Instance.SetFlashTorchMode(true);
+	}
+	public void onPointerUpFlashlightButton()
+	{
+		CameraDevice.Instance.SetFlashTorchMode(false);
+	}
 }
