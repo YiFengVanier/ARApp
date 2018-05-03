@@ -22,11 +22,11 @@ public class position : MonoBehaviour
 
         var xangle = xrot * (180 / Mathf.PI) + 90;
         var zangle = -zrot * (180 / Mathf.PI);
-        transform.eulerAngles = new Vector3(xangle, 0, zangle - Input.compass.trueHeading);
+        transform.eulerAngles = new Vector3((xangle - (xangle%1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading)%1)));
 
         if (Status_Text != null)
         {
-            Status_Text.text = Input.compass.trueHeading.ToString();
+            Status_Text.text = (Input.compass.trueHeading - ((Input.compass.trueHeading)%1)).ToString();
         }
     }
 }
