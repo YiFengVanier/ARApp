@@ -15,6 +15,7 @@ public class SearchDropDown : MonoBehaviour {
 	public GameObject Tissue;	
 	public GameObject Book;	
 	public GameObject Keyboard;	
+	public GameObject Arrow;
 
 	public Dropdown dropdown;
 	public Text text;
@@ -35,6 +36,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (true);
 			Book.SetActive (true);
 			Keyboard.SetActive (true);	
+			Arrow.SetActive (false);
 		}
 
 		//Shows only Dish container
@@ -51,6 +53,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
+			Arrow.SetActive (true);
 		}
 
 		//Shows only Fork container
@@ -67,6 +70,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
+			Arrow.SetActive (true);
 		}
 
 		//Shows only Cup container
@@ -83,6 +87,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);		
+			Arrow.SetActive (true);
 		}
 
 		//Shows only Scissor container
@@ -99,6 +104,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
+			Arrow.SetActive (true);
 		}
 
 		//Shows only Spoon container
@@ -115,6 +121,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
+			Arrow.SetActive (true);
 		}
 
 		//Shows only Knife container
@@ -131,6 +138,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
+			Arrow.SetActive (true);
 		}
 
 		//Shows only Pen container
@@ -147,6 +155,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
+			Arrow.SetActive (true);
 		}
 
 		//Shows only Cardboard container
@@ -163,6 +172,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
+			Arrow.SetActive (true);
 		}
 
 		//Shows only Tissue container
@@ -179,6 +189,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (true);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
+			Arrow.SetActive (true);
 		}
 
 		//Shows only Book container
@@ -195,6 +206,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (false);
 			Book.SetActive (true);
 			Keyboard.SetActive (false);	
+			Arrow.SetActive (true);
 		}
 
 		//Shows only Keyboard container
@@ -211,6 +223,7 @@ public class SearchDropDown : MonoBehaviour {
 			Tissue.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (true);	
+			Arrow.SetActive (true);
 		}
 
 	}
