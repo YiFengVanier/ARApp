@@ -32,12 +32,12 @@ public class position : MonoBehaviour
 			//arrow for 4 cabinet
 			if ((dropdown.value == 1) || (dropdown.value == 2) || (dropdown.value == 3) || (dropdown.value == 4)) 
 		{
-			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 50);
+			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 70);
 		}
 			//arrow for 3 desk
 			if ((dropdown.value == 5) || (dropdown.value == 6) || (dropdown.value == 7)) 
 		{
-			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 260);
+			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 110);
 		}
 			//arrow for right wood cabinet
 			if ((dropdown.value == 8) || (dropdown.value == 9)) 
@@ -47,7 +47,7 @@ public class position : MonoBehaviour
 			//arrow for left wood cabinet
 			if ((dropdown.value == 10) || (dropdown.value == 11)) 
 		{
-			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 70);
+			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 260);
 		}
             if (Status_Text != null)
         {
