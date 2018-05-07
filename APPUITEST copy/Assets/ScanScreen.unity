@@ -846,7 +846,7 @@ Transform:
   - {fileID: 1066688229}
   - {fileID: 1457801610}
   m_Father: {fileID: 2046083690}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &103475178
 MeshFilter:
@@ -2087,137 +2087,6 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
---- !u!1 &356494738
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 356494743}
-  - component: {fileID: 356494742}
-  - component: {fileID: 356494741}
-  - component: {fileID: 356494740}
-  - component: {fileID: 356494739}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!102 &356494739
-TextMesh:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 356494738}
-  m_Text: asdgafsdga
-  m_OffsetZ: 0
-  m_CharacterSize: 1
-  m_LineSpacing: 1
-  m_Anchor: 0
-  m_Alignment: 0
-  m_TabSize: 4
-  m_FontSize: 0
-  m_FontStyle: 0
-  m_RichText: 1
-  m_Font: {fileID: 0}
-  m_Color:
-    serializedVersion: 2
-    rgba: 4294967295
---- !u!23 &356494740
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 356494738}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!114 &356494741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 356494738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: asfasdgasf
---- !u!222 &356494742
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 356494738}
---- !u!224 &356494743
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 356494738}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: 0, y: 0, z: 193.50015}
-  m_LocalScale: {x: 20, y: 20, z: 0.022057535}
-  m_Children: []
-  m_Father: {fileID: 2046083690}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 360, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.840628, y: 25.5}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &357124191
 GameObject:
   m_ObjectHideFlags: 0
@@ -3644,7 +3513,7 @@ Transform:
   - {fileID: 448344500}
   - {fileID: 1998901887}
   m_Father: {fileID: 2046083690}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &587996177
 MeshFilter:
@@ -5608,6 +5477,7 @@ GameObject:
   - component: {fileID: 857573466}
   - component: {fileID: 857573468}
   - component: {fileID: 857573469}
+  - component: {fileID: 857573470}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -5673,6 +5543,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bacaacfdd65174c11b0614cb57aea831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &857573470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 857573465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da802cd8304d4453cb336dc2dda9a645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &886977700
@@ -6814,7 +6695,7 @@ Transform:
   - {fileID: 1934133358}
   - {fileID: 2139104679}
   m_Father: {fileID: 2046083690}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1134741214
 MonoBehaviour:
@@ -7716,7 +7597,7 @@ Transform:
   - {fileID: 1919053447}
   - {fileID: 984719697}
   m_Father: {fileID: 2046083690}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1382644408
 MonoBehaviour:
@@ -11675,7 +11556,6 @@ Transform:
   m_LocalPosition: {x: 310, y: 22, z: 0}
   m_LocalScale: {x: 0.8483563, y: 0.8483572, z: 1}
   m_Children:
-  - {fileID: 356494743}
   - {fileID: 2111743059}
   - {fileID: 1382644407}
   - {fileID: 103475177}
@@ -12156,7 +12036,7 @@ Transform:
   - {fileID: 232764085}
   - {fileID: 802954300}
   m_Father: {fileID: 2046083690}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!114 &2111743060
 MonoBehaviour:
@@ -12169,7 +12049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e9b7bdf77e1724cb98650163e45866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Status_Text: {fileID: 356494739}
   dropdown: {fileID: 472161148}
 --- !u!23 &2111743061
 MeshRenderer:

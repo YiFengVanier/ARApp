@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class position : MonoBehaviour
 {
-    public TextMesh Status_Text;
 	public Dropdown dropdown;
 
     // Use this for initialization
@@ -49,9 +48,5 @@ public class position : MonoBehaviour
 		{
 			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 260);
 		}
-            if (Status_Text != null)
-        {
-            Status_Text.text = (Input.compass.trueHeading - ((Input.compass.trueHeading)%1)).ToString();
-        }
     }
 }
