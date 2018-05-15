@@ -13,7 +13,7 @@ public class Picture : MonoBehaviour {
 		ScreenshotButton.SetActive (false);
 		BackButton.SetActive(false);
 		Invoke ("comeback", 1);
-		Invoke ("comback2", 1);
+		Invoke ("comeback2", 1);
 	}
 
 	void comeback()
