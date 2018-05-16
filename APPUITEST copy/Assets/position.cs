@@ -23,7 +23,7 @@ public class position : MonoBehaviour
 
         var xangle = xrot * (180 / Mathf.PI) + 90;
         var zangle = -zrot * (180 / Mathf.PI);
-			
+
 			//no arrows for all
 			if (dropdown.value == 0) 
 		{
