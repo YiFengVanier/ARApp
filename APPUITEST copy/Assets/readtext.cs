@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 // This using statement is needed for working with the new GUI system
 using UnityEngine.UI;
 
-public class StringDownloader : MonoBehaviour
+public class readtext : MonoBehaviour
 {
-	public string url = "174.20.10.5/upload.php";
+	public string url = "http://192.168.43.184/upload.php";
 	public string webText = string.Empty;
 	public Text guiText = null;
 
@@ -30,11 +30,13 @@ public class StringDownloader : MonoBehaviour
 
 		// Save text to a Text Object directly if needed
 		guiText.text = webRequest.text;
-	}
 
-	public void ChangeToScene (string sceneToChangeTo) {
-		SceneManager.LoadScene(sceneToChangeTo);
-	}
+        Debug.Log(guiText.text);
+        Debug.Log(webText);
+
+    }
+
+
 
 
 }
