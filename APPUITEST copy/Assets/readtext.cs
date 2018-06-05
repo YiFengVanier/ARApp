@@ -35,9 +35,9 @@ public class readtext : MonoBehaviour
         else
         {
             textFromWWW = www.text;
+			SearchDropDown.ApplicationData.displayname = textFromWWW;
         }
     }
-
-
+		
 
 }

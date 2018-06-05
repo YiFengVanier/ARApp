@@ -20,7 +20,16 @@ public class SearchDropDown : MonoBehaviour {
 	public Dropdown dropdown;
 	public Text text;
 
+	public static class ApplicationData {
+		public static string displayname;
+	}
+		
+
 	void Update () {
+
+		if (ApplicationData.displayname == "Fork") {
+			dropdown.value = 2;
+		}
 
 		//Shows all containers
 		if (dropdown.value == 0) {
@@ -229,4 +238,3 @@ public class SearchDropDown : MonoBehaviour {
 	}
 
 }
-
