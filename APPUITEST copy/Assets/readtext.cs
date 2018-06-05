@@ -6,36 +6,37 @@ using UnityEngine.UI;
 
 public class readtext : MonoBehaviour
 {
-	public string url = "http://192.168.43.184/upload.php";
-	public string webText = string.Empty;
-	public Text guiText = null;
+  
 
-	void Start()
-	{
-		// Start the GetTextFromWebsite Coroutine
-		StartCoroutine(GetTextFromWebsite());
 
-	}
+    private string textFromWWW;
+    private string url = "http://192.168.43.184/object_detection/resultfile.txt"; // <-- enter your url here
 
-	public IEnumerator GetTextFromWebsite()
-	{
-		// web request object
-		WWW webRequest = new WWW(url);
-
-		// wait on the return
-		yield return webRequest;
-
-		// Save text to local var if you need it elsewhere
-		webText = webRequest.text;
-
-		// Save text to a Text Object directly if needed
-		guiText.text = webRequest.text;
-
-        Debug.Log(guiText.text);
-        Debug.Log(webText);
-
+    void Start()
+    {
+        StartCoroutine(GetTextFromWWW());
     }
 
+    void OnGUI()
+    {
+        GUI.Label(new Rect(0, 0, 200, 200), textFromWWW);
+    }
+
+    IEnumerator GetTextFromWWW()
+    {
+        WWW www = new WWW(url);
+
+        yield return new WaitForSeconds(30);
+        yield return www;
+        if (www.error != null)
+        {
+            Debug.Log("Ooops, something went wrong...");
+        }
+        else
+        {
+            textFromWWW = www.text;
+        }
+    }
 
 
 
