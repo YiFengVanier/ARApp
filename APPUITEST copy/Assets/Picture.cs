@@ -29,11 +29,4 @@ public class Picture : MonoBehaviour {
 		BackButton.SetActive (true);
 	}
 
-
-
-	void ConnectToServer() {
-		Network.Connect ("127.0.0.1", 25000);
-	}
-
-
 }

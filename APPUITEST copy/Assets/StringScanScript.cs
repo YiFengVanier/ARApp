@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SearchDropDown : MonoBehaviour {
+public class StringScanScript : MonoBehaviour {
 	public GameObject Scissor;
 	public GameObject Cup;	
 	public GameObject Fork;	
@@ -16,14 +15,16 @@ public class SearchDropDown : MonoBehaviour {
 	public GameObject Book;	
 	public GameObject Keyboard;	
 	public GameObject Arrow;
-
-	public Dropdown dropdown;
 	public Text text;
-		
+
+	public static class ApplicationData {
+		public static string displayname;
+	}
+
 	void Update () {
 
 		//Shows all containers
-		if (dropdown.value == 0) {
+		if (ApplicationData.displayname == "") {
 			text.text = "Scanning for All";
 			Scissor.SetActive (true);
 			Cup.SetActive (true);
@@ -40,7 +41,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Dish container
-		if (dropdown.value == 1) {
+		if (ApplicationData.displayname == "dish") {
 			text.text = "Scanning for Dishes";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
@@ -57,7 +58,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Fork container
-		if (dropdown.value == 2) {
+		if (ApplicationData.displayname == "fork") {
 			text.text = "Scanning for Forks";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
@@ -74,7 +75,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Cup container
-		if (dropdown.value == 3) {
+		if (ApplicationData.displayname == "cup") {
 			text.text = "Scanning for Cups";
 			Scissor.SetActive (false);
 			Cup.SetActive (true);
@@ -91,7 +92,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Scissor container
-		if (dropdown.value == 4) {
+		if (ApplicationData.displayname == "scissor") {
 			text.text = "Scanning for Scissors";
 			Scissor.SetActive (true);
 			Cup.SetActive (false);
@@ -108,7 +109,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Spoon container
-		if (dropdown.value == 5) {
+		if (ApplicationData.displayname == "spoon") {
 			text.text = "Scanning for Spoons";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
@@ -125,7 +126,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Knife container
-		if (dropdown.value == 6) {
+		if (ApplicationData.displayname == "knife") {
 			text.text = "Scanning for Knives";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
@@ -142,7 +143,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Pen container
-		if (dropdown.value == 7) {
+		if (ApplicationData.displayname == "pen") {
 			text.text = "Scanning for Pens";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
@@ -159,7 +160,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Cardboard container
-		if (dropdown.value == 8) {
+		if (ApplicationData.displayname == "cardboard") {
 			text.text = "Scanning for Cardboard";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
@@ -176,7 +177,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Tissue container
-		if (dropdown.value == 9) {
+		if (ApplicationData.displayname == "tissue") {
 			text.text = "Scanning for Tissues";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
@@ -193,7 +194,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Book container
-		if (dropdown.value == 10) {
+		if (ApplicationData.displayname == "book") {
 			text.text = "Scanning for Books";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
@@ -210,7 +211,7 @@ public class SearchDropDown : MonoBehaviour {
 		}
 
 		//Shows only Keyboard container
-		if (dropdown.value == 11) {
+		if (ApplicationData.displayname == "keyboard") {
 			text.text = "Scanning for Keyboards";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
