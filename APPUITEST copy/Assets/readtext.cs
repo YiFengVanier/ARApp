@@ -35,6 +35,7 @@ public class readtext : MonoBehaviour
         else
         {
             textFromWWW = www.text;
+			StringScanScript.ApplicationData.displayname = textFromWWW;
         }
     }
 
