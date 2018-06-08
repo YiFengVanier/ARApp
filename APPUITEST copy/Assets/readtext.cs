@@ -19,14 +19,14 @@ public class readtext : MonoBehaviour
 
     void OnGUI()
     {
-        GUI.Label(new Rect(0, 0, 200, 200), textFromWWW);
+        GUI.Label(new Rect(10, 10, 200, 200), textFromWWW);
     }
 
     IEnumerator GetTextFromWWW()
     {
         WWW www = new WWW(url);
 
-        yield return new WaitForSeconds(30);
+        yield return new WaitForSeconds(2);
         yield return www;
         if (www.error != null)
         {
@@ -35,9 +35,9 @@ public class readtext : MonoBehaviour
         else
         {
             textFromWWW = www.text;
-			StringScanScript.ApplicationData.displayname = textFromWWW;
         }
     }
-		
+
+
 
 }

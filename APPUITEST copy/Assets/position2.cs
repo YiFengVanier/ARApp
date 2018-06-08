@@ -33,7 +33,7 @@ public class position2 : MonoBehaviour
 			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 70);
 		}
 		//arrow for 3 desk
-		if ((StringScanScript.ApplicationData.displayname == "") || (StringScanScript.ApplicationData.displayname == "") || (StringScanScript.ApplicationData.displayname == "")) 
+		if ((StringScanScript.ApplicationData.displayname == "spoon") || (StringScanScript.ApplicationData.displayname == "") || (StringScanScript.ApplicationData.displayname == "")) 
 		{
 			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 110);
 		}
