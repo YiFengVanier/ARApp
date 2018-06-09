@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 52043403}
   - component: {fileID: 52043404}
   m_Layer: 0
-  m_Name: Bottom Tissue
+  m_Name: Bottom Mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -604,7 +604,7 @@ GameObject:
   - component: {fileID: 89782759}
   - component: {fileID: 89782760}
   m_Layer: 0
-  m_Name: Left Tissue
+  m_Name: Left Mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1688,7 +1688,7 @@ GameObject:
   - component: {fileID: 348405589}
   - component: {fileID: 348405590}
   m_Layer: 0
-  m_Name: Top Knife
+  m_Name: Top Keyboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1839,7 +1839,7 @@ GameObject:
   - component: {fileID: 369606405}
   - component: {fileID: 369606406}
   m_Layer: 0
-  m_Name: Left Knife
+  m_Name: Left Keyboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2073,7 +2073,7 @@ GameObject:
   - component: {fileID: 388023301}
   - component: {fileID: 388023302}
   m_Layer: 0
-  m_Name: Right Knife
+  m_Name: Right Keyboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2306,7 +2306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 448344500}
   m_Layer: 0
-  m_Name: Knife Highlight
+  m_Name: Keyboard Highlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2649,7 +2649,7 @@ GameObject:
   - component: {fileID: 538251969}
   - component: {fileID: 538251968}
   m_Layer: 0
-  m_Name: Text Knife
+  m_Name: Text Keyboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2662,8 +2662,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 538251966}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.20599651, y: 0.026000023, z: -0.2899979}
-  m_LocalScale: {x: 0.09999963, y: 0.09999973, z: 1}
+  m_LocalPosition: {x: -0.224, y: 0.026000023, z: -0.2899979}
+  m_LocalScale: {x: 0.08, y: 0.09999973, z: 1}
   m_Children: []
   m_Father: {fileID: 448344500}
   m_RootOrder: 4
@@ -2675,7 +2675,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 538251966}
-  m_Text: Knives
+  m_Text: Keyboard
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -3458,7 +3458,7 @@ GameObject:
   - component: {fileID: 631045094}
   - component: {fileID: 631045095}
   m_Layer: 0
-  m_Name: Right Keyboard
+  m_Name: Right Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3575,7 +3575,7 @@ GameObject:
   - component: {fileID: 643820933}
   - component: {fileID: 643820934}
   m_Layer: 0
-  m_Name: Canvas Keyboard
+  m_Name: Canvas Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4737,7 +4737,7 @@ GameObject:
   - component: {fileID: 855461451}
   - component: {fileID: 855461452}
   m_Layer: 0
-  m_Name: Bottom Knife
+  m_Name: Bottom Keyboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5020,12 +5020,12 @@ MonoBehaviour:
   Fork: {fileID: 1934133357}
   Dish: {fileID: 2139104678}
   Spoon: {fileID: 1912802955}
-  Knife: {fileID: 448344499}
+  Keyboard: {fileID: 448344499}
   Pen: {fileID: 1998901886}
   Cardboard: {fileID: 1066688228}
-  Tissue: {fileID: 1457801609}
+  Mouse: {fileID: 1457801609}
   Book: {fileID: 1919053446}
-  Keyboard: {fileID: 984719696}
+  Knife: {fileID: 984719696}
   Arrow: {fileID: 2111743058}
   text: {fileID: 1601154210}
 --- !u!114 &857573469
@@ -5060,7 +5060,7 @@ GameObject:
   - component: {fileID: 886977701}
   - component: {fileID: 886977702}
   m_Layer: 0
-  m_Name: Top Tissue
+  m_Name: Top Mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5287,7 +5287,7 @@ GameObject:
   - component: {fileID: 970568867}
   - component: {fileID: 970568868}
   m_Layer: 0
-  m_Name: Canvas Tissue
+  m_Name: Canvas Mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5476,7 +5476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 984719697}
   m_Layer: 0
-  m_Name: Keyboard Highlight
+  m_Name: Knife Highlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6374,7 +6374,7 @@ GameObject:
   - component: {fileID: 1266390398}
   - component: {fileID: 1266390399}
   m_Layer: 0
-  m_Name: Canvas Knife
+  m_Name: Canvas Keyboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7054,7 +7054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1457801610}
   m_Layer: 0
-  m_Name: Tissue Highlight
+  m_Name: Mouse Highlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7291,7 +7291,7 @@ GameObject:
   - component: {fileID: 1534318373}
   - component: {fileID: 1534318372}
   m_Layer: 0
-  m_Name: Text Tissue
+  m_Name: Text Mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7304,7 +7304,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1534318370}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.29, y: 0.08, z: -0.28200167}
+  m_LocalPosition: {x: -0.251, y: 0.08, z: -0.28200167}
   m_LocalScale: {x: 0.127114, y: 0.12711407, z: 0.12711407}
   m_Children: []
   m_Father: {fileID: 1457801610}
@@ -7317,7 +7317,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1534318370}
-  m_Text: Tissues
+  m_Text: Mouse
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -7971,7 +7971,7 @@ GameObject:
   - component: {fileID: 1634559661}
   - component: {fileID: 1634559662}
   m_Layer: 0
-  m_Name: Top Keyboard
+  m_Name: Top Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9508,7 +9508,7 @@ GameObject:
   - component: {fileID: 1882642176}
   - component: {fileID: 1882642177}
   m_Layer: 0
-  m_Name: Bottom Keyboard
+  m_Name: Bottom Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9845,7 +9845,7 @@ GameObject:
   - component: {fileID: 1909534683}
   - component: {fileID: 1909534684}
   m_Layer: 0
-  m_Name: Right Tissue
+  m_Name: Right Mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10545,7 +10545,7 @@ GameObject:
   - component: {fileID: 2096496928}
   - component: {fileID: 2096496929}
   m_Layer: 0
-  m_Name: Left Keyboard
+  m_Name: Left Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10663,7 +10663,7 @@ GameObject:
   - component: {fileID: 2107057219}
   - component: {fileID: 2107057218}
   m_Layer: 0
-  m_Name: Text Keyboard
+  m_Name: Text Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10676,8 +10676,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2107057216}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.299, y: 0.08, z: -0.28200167}
-  m_LocalScale: {x: 0.1, y: 0.12711407, z: 0.12711407}
+  m_LocalPosition: {x: -0.24, y: 0.08, z: -0.282}
+  m_LocalScale: {x: 0.125, y: 0.12711407, z: 0.12711407}
   m_Children: []
   m_Father: {fileID: 984719697}
   m_RootOrder: 5
@@ -10689,7 +10689,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2107057216}
-  m_Text: Keyboards
+  m_Text: Knives
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -10800,7 +10800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 111d964dd05244180b196fe829881744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 0}
 --- !u!23 &2111743061
 MeshRenderer:
   m_ObjectHideFlags: 0

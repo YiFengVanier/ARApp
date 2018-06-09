@@ -9,28 +9,19 @@ public class SearchDropDown : MonoBehaviour {
 	public GameObject Fork;	
 	public GameObject Dish;
 	public GameObject Spoon;	
-	public GameObject Knife;	
+	public GameObject Keyboard;	
 	public GameObject Pen;	
 	public GameObject Cardboard;	
-	public GameObject Tissue;	
+	public GameObject Mouse;	
 	public GameObject Book;	
-	public GameObject Keyboard;	
+	public GameObject Knife;	
 	public GameObject Arrow;
 
 	public Dropdown dropdown;
 	public Text text;
 
-	public static class ApplicationData {
-		public static string displayname;
-	}
-		
-
 	void Update () {
-
-		if (ApplicationData.displayname == "fork") {
-			dropdown.value = 2;
-		}
-
+		
 		//Shows all containers
 		if (dropdown.value == 0) {
 			text.text = "Scanning for All";
@@ -42,7 +33,7 @@ public class SearchDropDown : MonoBehaviour {
 			Knife.SetActive (true);
 			Pen.SetActive (true);
 			Cardboard.SetActive (true);
-			Tissue.SetActive (true);
+			Mouse.SetActive (true);
 			Book.SetActive (true);
 			Keyboard.SetActive (true);	
 			Arrow.SetActive (false);
@@ -59,7 +50,7 @@ public class SearchDropDown : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
@@ -76,7 +67,7 @@ public class SearchDropDown : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
@@ -93,7 +84,7 @@ public class SearchDropDown : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);		
 			Arrow.SetActive (true);
@@ -110,7 +101,7 @@ public class SearchDropDown : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
@@ -127,26 +118,26 @@ public class SearchDropDown : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
 		}
 
-		//Shows only Knife container
+		//Shows only Keyboard container
 		if (dropdown.value == 6) {
-			text.text = "Scanning for Knives";
+			text.text = "Scanning for Keyboard";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
 			Fork.SetActive (false);
 			Dish.SetActive (false);
 			Spoon.SetActive (false);
-			Knife.SetActive (true);
+			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
-			Keyboard.SetActive (false);	
+			Keyboard.SetActive (true);	
 			Arrow.SetActive (true);
 		}
 
@@ -161,7 +152,7 @@ public class SearchDropDown : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (true);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
@@ -178,15 +169,15 @@ public class SearchDropDown : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (true);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
 		}
 
-		//Shows only Tissue container
+		//Shows only Mouse container
 		if (dropdown.value == 9) {
-			text.text = "Scanning for Tissues";
+			text.text = "Scanning for Mouses";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
 			Fork.SetActive (false);
@@ -195,7 +186,7 @@ public class SearchDropDown : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (true);
+			Mouse.SetActive (true);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
@@ -212,26 +203,26 @@ public class SearchDropDown : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (true);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
 		}
 
-		//Shows only Keyboard container
+		//Shows only Knife container
 		if (dropdown.value == 11) {
-			text.text = "Scanning for Keyboards";
+			text.text = "Scanning for Knives";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
 			Fork.SetActive (false);
 			Dish.SetActive (false);
 			Spoon.SetActive (false);
-			Knife.SetActive (false);
+			Knife.SetActive (true);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
-			Keyboard.SetActive (true);	
+			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
 		}
 

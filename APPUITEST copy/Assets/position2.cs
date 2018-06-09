@@ -28,22 +28,22 @@ public class position2 : MonoBehaviour
 		{
 		}
 		//arrow for 4 cabinet
-		if ((StringScanScript.ApplicationData.displayname == "fork")  || (StringScanScript.ApplicationData.displayname == "fork") || (StringScanScript.ApplicationData.displayname == "fork") || (StringScanScript.ApplicationData.displayname == "fork")) 
+		if ((StringScanScript.ApplicationData.displayname == "dish")  || (StringScanScript.ApplicationData.displayname == "fork") || (StringScanScript.ApplicationData.displayname == "cup") || (StringScanScript.ApplicationData.displayname == "scissor")) 
 		{
 			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 70);
 		}
 		//arrow for 3 desk
-		if ((StringScanScript.ApplicationData.displayname == "spoon") || (StringScanScript.ApplicationData.displayname == "knife") || (StringScanScript.ApplicationData.displayname == "spoon")) 
+		if ((StringScanScript.ApplicationData.displayname == "pen") || (StringScanScript.ApplicationData.displayname == "spoon") || (StringScanScript.ApplicationData.displayname == "keyboard")) 
 		{
 			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 110);
 		}
 		//arrow for right wood cabinet
-		if ((StringScanScript.ApplicationData.displayname == "") || (StringScanScript.ApplicationData.displayname == "")) 
+		if ((StringScanScript.ApplicationData.displayname == "cardboard") || (StringScanScript.ApplicationData.displayname == "mouse")) 
 		{
 			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 170);
 		}
 		//arrow for left wood cabinet
-		if ((StringScanScript.ApplicationData.displayname == "") || (StringScanScript.ApplicationData.displayname == "")) 
+		if ((StringScanScript.ApplicationData.displayname == "book") || (StringScanScript.ApplicationData.displayname == "knife")) 
 		{
 			transform.eulerAngles = new Vector3 ((xangle - (xangle % 1)), 0, ((zangle - Input.compass.trueHeading) - ((zangle - Input.compass.trueHeading) % 1)) - 260);
 		}

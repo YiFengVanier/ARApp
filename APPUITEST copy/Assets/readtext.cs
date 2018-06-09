@@ -26,7 +26,6 @@ public class readtext : MonoBehaviour
     {
         WWW www = new WWW(url);
 
-        yield return new WaitForSeconds(2);
         yield return www;
         if (www.error != null)
         {

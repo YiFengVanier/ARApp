@@ -8,12 +8,12 @@ public class StringScanScript : MonoBehaviour {
 	public GameObject Fork;	
 	public GameObject Dish;
 	public GameObject Spoon;	
-	public GameObject Knife;	
+	public GameObject Keyboard;	
 	public GameObject Pen;	
 	public GameObject Cardboard;	
-	public GameObject Tissue;	
+	public GameObject Mouse;	
 	public GameObject Book;	
-	public GameObject Keyboard;	
+	public GameObject Knife;	
 	public GameObject Arrow;
 	public Text text;
 
@@ -34,7 +34,7 @@ public class StringScanScript : MonoBehaviour {
 			Knife.SetActive (true);
 			Pen.SetActive (true);
 			Cardboard.SetActive (true);
-			Tissue.SetActive (true);
+			Mouse.SetActive (true);
 			Book.SetActive (true);
 			Keyboard.SetActive (true);	
 			Arrow.SetActive (false);
@@ -51,7 +51,7 @@ public class StringScanScript : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
@@ -68,7 +68,7 @@ public class StringScanScript : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
@@ -85,7 +85,7 @@ public class StringScanScript : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);		
 			Arrow.SetActive (true);
@@ -102,7 +102,7 @@ public class StringScanScript : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
@@ -119,26 +119,26 @@ public class StringScanScript : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
 		}
 
-		//Shows only Knife container
-		if (ApplicationData.displayname == "knife") {
-			text.text = "Scanning for Knives";
+		//Shows only Keyboard container
+		if (ApplicationData.displayname == "keyboard") {
+			text.text = "Scanning for Keyboards";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
 			Fork.SetActive (false);
 			Dish.SetActive (false);
 			Spoon.SetActive (false);
-			Knife.SetActive (true);
+			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
-			Keyboard.SetActive (false);	
+			Keyboard.SetActive (true);	
 			Arrow.SetActive (true);
 		}
 
@@ -153,7 +153,7 @@ public class StringScanScript : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (true);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
@@ -170,15 +170,15 @@ public class StringScanScript : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (true);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
 		}
 
-		//Shows only Tissue container
-		if (ApplicationData.displayname == "tissue") {
-			text.text = "Scanning for Tissues";
+		//Shows only Mouse container
+		if (ApplicationData.displayname == "mouse") {
+			text.text = "Scanning for Mouses";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
 			Fork.SetActive (false);
@@ -187,7 +187,7 @@ public class StringScanScript : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (true);
+			Mouse.SetActive (true);
 			Book.SetActive (false);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
@@ -204,26 +204,26 @@ public class StringScanScript : MonoBehaviour {
 			Knife.SetActive (false);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (true);
 			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
 		}
 
-		//Shows only Keyboard container
-		if (ApplicationData.displayname == "keyboard") {
-			text.text = "Scanning for Keyboards";
+		//Shows only Knife container
+		if (ApplicationData.displayname == "knife") {
+			text.text = "Scanning for Knives";
 			Scissor.SetActive (false);
 			Cup.SetActive (false);
 			Fork.SetActive (false);
 			Dish.SetActive (false);
 			Spoon.SetActive (false);
-			Knife.SetActive (false);
+			Knife.SetActive (true);
 			Pen.SetActive (false);
 			Cardboard.SetActive (false);
-			Tissue.SetActive (false);
+			Mouse.SetActive (false);
 			Book.SetActive (false);
-			Keyboard.SetActive (true);	
+			Keyboard.SetActive (false);	
 			Arrow.SetActive (true);
 		}
 
