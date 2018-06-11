@@ -16,28 +16,24 @@ public class readtext : MonoBehaviour
     {
         StartCoroutine(GetTextFromWWW());
     }
-
+		
     void OnGUI()
     {
         GUI.Label(new Rect(10, 10, 200, 200), textFromWWW);
     }
 
     IEnumerator GetTextFromWWW()
-    {
-        WWW www = new WWW(url);
+	{
+		WWW www = new WWW (url);
 
-        yield return www;
-        if (www.error != null)
-        {
-            Debug.Log("Ooops, something went wrong...");
-        }
-        else
-        {
-            textFromWWW = www.text;
+		yield return www;
+
+		if (www.error != null) {
+			Debug.Log ("Ooops, something went wrong...");
+		} else {
+			textFromWWW = www.text;
 			StringScanScript.ApplicationData.displayname = textFromWWW;
-        }
-    }
-
-
-
+		}
+	}
+		
 }
