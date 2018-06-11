@@ -20,7 +20,7 @@ public class Picture : MonoBehaviour {
 	void comeback()
 		{	
 		ScreenCapture.CaptureScreenshot ("screenshot.jpg");
-		print (Application.persistentDataPath);
+		print (Application.dataPath + "/" + "storage" + "/" + "emulated" + "/" + "0" + "/" + "DCIM" + "/" + "Camera" + "/" + "screenshot.jpg");
 		}
 
 	void comeback2()
