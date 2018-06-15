@@ -13,20 +13,12 @@ public class Picture : MonoBehaviour {
 		ScreenshotButton.SetActive (false);
 		BackButton.SetActive(false);
 		Invoke ("comeback", 0);
-		Invoke ("comeback2", 1);
         Application.OpenURL("http://192.168.43.184/get_img.php");
     }
 
 	void comeback()
 		{	
 		ScreenCapture.CaptureScreenshot ("screenshot.jpg");
-		print (Application.dataPath + "/" + "storage" + "/" + "emulated" + "/" + "0" + "/" + "DCIM" + "/" + "Camera" + "/" + "screenshot.jpg");
-		}
-
-	void comeback2()
-	{
-		ScreenshotButton.SetActive (true);
-		BackButton.SetActive (true);
+		print (Application.persistentDataPath);
 	}
-
 }
