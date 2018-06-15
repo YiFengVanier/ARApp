@@ -2,6 +2,9 @@
 using System.Collections;
 using Vuforia;
 
+/* This script is placed in a ARCamera in any scene using vuforia. */
+/* It will refocus the camera when you are trying to use it.       */
+
 public class CameraFocusController : MonoBehaviour
 {
 

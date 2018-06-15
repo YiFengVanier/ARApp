@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
-//using UnityEngine.SceneManagement;
-// This using statement is needed for working with the new GUI system
 using UnityEngine.UI;
+
+/* Script is attached to a button that will start a coroutine that will     */
+/* read a string value from the result of tensorflow (ie. fork) and will    */
+/* attach itself to a static variable for the scan screen to identify which */
+/* directions to give.                                                      */
 
 public class readtext : MonoBehaviour
 {
-  
-
 
     private string textFromWWW;
     private string url = "http://192.168.43.184/object_detection/resultfile.txt"; // <-- enter your url here
@@ -35,5 +36,4 @@ public class readtext : MonoBehaviour
 			StringScanScript.ApplicationData.displayname = textFromWWW;
 		}
 	}
-		
 }

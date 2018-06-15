@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/* Script is connected to a dropdown object in the Scan Screen. Unity dropdowns */
+/* give a value from 0 the top option and add 1 for each one down. This script  */
+/* will make the arrow appear when searching for a specific container, outline  */
+/* that container, and will tell you what you are searching for. */
+
 public class SearchDropDown : MonoBehaviour {
 	public GameObject Scissor;
 	public GameObject Cup;	

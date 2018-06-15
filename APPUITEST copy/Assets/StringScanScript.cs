@@ -2,6 +2,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/* Script is put in an gameobject (manager) in the SearchScanScreen    */
+/* and it will read the string given from the server. It will then     */
+/* make the arrow appear with correct angles pointing in the direction */
+/* of the container, label what the user is searching for, and will    */
+/* outline the correct container.                                      */
+
 public class StringScanScript : MonoBehaviour {
 	public GameObject Scissor;
 	public GameObject Cup;	

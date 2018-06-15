@@ -5,6 +5,11 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using Vuforia;
 
+/* Script is attached to a button and will take a screenshot        */
+/* of the current scene (saves on app folder on device). It will    */
+/* remove the buttons for the picture and will take you to the url  */
+/* running the tensorflow server.                                   */
+
 public class Picture : MonoBehaviour {
 	public GameObject ScreenshotButton;
 	public GameObject BackButton;

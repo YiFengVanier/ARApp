@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/* Calculation Credit: https://blog.falafel.com/displaying-device-compass-unity    */
+/* This script is attached to an object (arrow sprite) that will move acccordingly */
+/* depending on the value read. Will make the sprite point to specific angles      */
+/* are where the cabinets.                                                         */
+
 public class position : MonoBehaviour
 {
 	public Dropdown dropdown;
