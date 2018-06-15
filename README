@@ -1,0 +1,38 @@
+CONTENTS OF THIS FILE
+---------------------
+   
+ * Introduction
+ * Requirements
+ * Installation
+ * Configuration
+ * Troubleshooting
+ * FAQ
+ * Maintainers
+ 
+ 
+ INTRODUCTION
+--------------
+This is an Augmented Reality app for Android that can assist a user in finding or putting away items in a shared space.
+It includes 3 main features
+  - Scan: The user is able to scan the entire environment and is able to see the storage spaces outlined
+  - Find: User can search for a specific storage space and get directions for that storage space
+  - Stash: The user is able to take a picture of an item that belongs in a storage space and will guide the user to the correct location
+
+
+REQUIREMENTS
+-------------
+- Unity 2017.3.1p4 ( https://unity3d.com/get-unity/download/archive )
+  - During the component section of the Unity installation - select Vuforia Augmented Reality Support
+- Tensorflow ( follow guide : https://www.tensorflow.org/install/ )
+- Server ( follow guide: https://www.apachefriends.org/index.html )
+
+
+INSTALLATION
+-------------
+Install Unity
+  - Open Unity and open 'APPUITEST copy' folder
+  - Everything should be set up to where we left off
+  - The scripts should have comments that will describe what each does, and a general idea of where they are used in our program
+ 
+ 
+
